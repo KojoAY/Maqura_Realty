@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+
+form *{
+  font-size: 11.5pt;
+  font-family: "Segoe UI", Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-block{
+  padding: 0% 8% 3%;
+}
+
+.filter-block form{
+  background-color: #f5f5f5;
+  border-radius: 0 0 2px 2px;
+  padding: 2%;
+}
+
+.filter-block-o{
+  background-color: #f8f8f8;
+  padding: 3% 6%;
+}
+
+.filter-block #cap{
+  font-size: 13px;
+  margin: 0 0 20px 0;
+}
+
+.filter-block form .fa{
+  font-family: FontAwesome;
+}
+
+.filter-block form input[type="text"],
+.feedback-form input,
+.feedback-form textarea,
+.filter-block form select{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 3%;
+  text-transform: capitalize;
+  width: 94%
+}
+
+
+.feedback-form textarea,
+.feedback-form input[type="tel"],
+.feedback-form input[type="email"]{
+  text-transform: none;
+}
+
+.feedback-form textarea[name="fMsg"]{
+  width: 94%;
+}
+
+.filter-block form select{
+  width: 100%;
+}
+
+.filter-block form span{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.filter-block form .price *{
+  display: inline-block;
+}
+
+.filter-block form .price select{
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.filter-block form .price input{
+  width: 94%;
+  margin-bottom: 5px;
+}
+
+.filter-block form #submit{
+  text-align: center;
+}
+
+.filter-block form button{
+  border: none;
+  background-color: rgb(255,204,51);
+  border-radius: 4px;
+  color: #000;
+  padding: 10px 20px;
+}
+
+.filter-block form button:hover{
+  background-color: rgb(0,0,0);
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 800px){
+
+  .filter-block form input[type="text"],
+  .feedback-form input,
+  .feedback-form textarea,
+  .filter-block form select{
+    padding: 10px 3%;
+    width: 100%
+  }
+
+  .filter-block form select{
+    width: 100%;
+  }
+
+  .filter-block form span{
+    display: inline-block;
+    margin: 0 1% 20px 1%;
+    width: 32.4%;
+  }
+
+  .filter-block form span.bed-bath{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 15.5%;
+  }
+
+  .filter-block form span.bed-bath select{
+    padding: 10px 7%;    
+  }
+
+  .filter-block form span:nth-child(1n){
+    margin-left: 0%;
+  }
+
+  .filter-block form span:nth-child(5n){
+    margin-right: 0;
+  }
+
+  .filter-block form .price{
+    width: 32.5%;
+  }
+
+  .filter-block form .price select{
+    padding: 10px 3%;
+    display: inline-block;
+    min-width: auto;
+    width: 21%;
+  }
+
+  .filter-block form .price input{
+    padding: 10px 4%;
+    min-width: 100px;
+    width: 68.6%;
+  }
+
+  .filter-block form #submit{
+    text-align: right;
+    width: auto;
+  }
+}
+
+
+
+/* feedback form */
+.feedback-form{
+  padding: 3% 0;
+}
+
+.feedback-form input,
+.feedback-form textarea{
+  margin-bottom: 10px;
+}
+
+.feedback-form textarea{
+  height: 200px;
+}
+
+.feedback-form button{
+  border: none;
+  background-color: rgb(0,0,0);
+  border-radius: 2px;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.feedback-form button:hover{
+  background-color: rgb(0,102,0);
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 800px){
+
+  .feedback-form input{
+    width: 25.87%;
+  }
+
+  .feedback-form input:nth-child(2n){
+    margin: 0 1.52% 20px;
+  }
+}

@@ -1,0 +1,202 @@
+form *{
+	font-family: Arial;
+	font-size: 10pt;
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.login-landn {
+	padding: auto;
+}
+
+.login-form-container{
+	background-color: rgba(255, 255, 255, .8);
+	border-radius: 6px;
+	box-shadow: 0 0 15px -1px #0C0C1E;
+	margin: 40% auto 0;
+	min-width: 250px;
+	width: 80%;
+	padding: 20px 5%;
+	position: relative;
+	overflow: hidden;
+}
+
+.login-form-container [type="email"],
+.login-form-container [type="password"],
+.login-form-container [type="text"]{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 10px 6%;
+	width: 88%;
+}
+
+.login-form-container button{
+	background-color: #00AAE6;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	margin-right: 10px;
+	padding: 10px 20px;
+}
+
+.login-form-container button:hover{
+	background-color: #0C0C1E;
+}
+
+
+
+/* search */
+.filterFrm{
+	margin-top: 20px;
+}
+
+.filterFrm *{
+	position: relative;
+	vertical-align: top;
+}
+
+.filterFrm input[type="text"]{
+	border: 1px solid #ddd;
+	border-right: none;
+	border-radius: 2px 0 0 2px;
+	padding: 10px 6%;
+	width: 80%;
+}
+
+.filterFrm button{
+	background-color: #00AAE6;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	padding: 12px 3.5%;
+}
+
+.filterFrm button:hover{
+	background-color: #0C0C1E;
+}
+
+
+
+/* addnew */
+.addNewFrm{
+	min-width: 250px;
+	width: 50%;
+}
+
+.addNewFrm article{
+	margin-bottom: 20px;
+}
+
+.addNewFrm article h2{
+	color: #666;
+	font-size: 10px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.addNewFrm input[type="text"],
+.addNewFrm input[type="number"],
+.addNewFrm select,
+.addNewFrm textarea{
+	border: 1px solid #ddd;
+	border-radius: 2px 0 0 2px;
+	padding: 10px 6%;
+	width: 80%;
+}
+
+.addNewFrm input[type="text"]#small,
+.addNewFrm input[type="number"]#small{
+	width: 50px;
+}
+
+.addNewFrm select#small{
+	width: 20%;
+}
+
+.addNewFrm input[type="number"]#smallPrice{
+	width: 20%;
+}
+
+.addNewFrm .stat label{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.addNewFrm textarea{
+	height: 100px;
+}
+
+.addNewFrm .picHolder{
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	padding: 0 !important;
+	position: relative;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+}
+
+.addNewFrm .picHolder article{
+	background: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	width: 150px;
+}
+
+.addNewFrm .picHolder [type="file"]{
+	position: absolute;
+	visibility: hidden; 
+}
+
+.addNewFrm .picHolder .fa-camera{
+	color: #ccc;
+	font-size: 40px;
+	position: absolute;
+	left: 53px;
+	top: 53px;
+	z-index: 1;
+}
+
+.addNewFrm .picHolder:hover .fa-camera{
+	color: #000;
+}
+
+.addNewFrm .picHolder .thumb-image{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 0;
+	height: 150px;
+	/*width: 100%;*/
+	z-index: 100;
+}
+
+
+.addNewFrm .picHolder .default-img{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 200;
+}
+
+.addNewFrm button{
+	background-color: #00AAE6;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	margin-right: 10px;
+	padding: 10px 20px;
+}
+
+.addNewFrm button:hover{
+	background-color: #0C0C1E;
+}
+
